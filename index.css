@@ -1,0 +1,157 @@
+body{
+  background-color: rgba(149, 157, 165, 0.2) ;
+  padding: 7px;
+  font-family: 'Lato', sans-serif;
+}
+.body-img{
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  text-align: center;
+  padding: 7px;
+}
+.banner{
+  width: 400px;
+  height: 300px;
+}
+.heading{
+  text-align: center;
+}
+.ht1{
+  font-size: 32px;
+}
+button{
+  border-style: none;
+  color: #fff;
+  background-color: darkblue;
+  padding: 1rem;
+  margin: 1rem 0;
+  width: 50%;
+  font-size: 20px;
+}
+.ban-t1{
+  font-size: 25px;
+  text-align: left;
+  margin: 10px 1.5rem;
+  font-weight: bold;
+}
+.ban-t2{
+  text-align: left;
+  background-color: blue;
+  padding: 7px;
+  width: fit-content;
+  color: #fff;
+}
+.contents{
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1rem;
+  margin: 7px 0;
+}
+h5{
+  font-size: 22px;
+  margin-bottom: -6px;
+}
+.desc{
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1rem;
+  margin: 7px 0;
+}
+.whatl{
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1rem;
+  margin: 7px 0;
+}
+.req{
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1rem;
+  margin: 7px 0;
+}
+.fdes{
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1rem;
+  margin: 7px 0;
+}
+.whoc{
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1rem;
+  margin: 7px 0;
+}
+span{
+  font-weight: bold;
+  margin-right: 2px;
+}
+.thisc{
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1rem;
+  margin: 7px 0;
+}
+.cspec{
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1rem;
+  margin: 7px 0;
+}
+.cta{
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1rem;
+  margin: 7px 0;
+}
+#revue-embed{
+  background-color: orangered;
+  padding: 1rem;
+  text-align: left;
+  color: white;
+}
+#revue-form{
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.revue-form-group{
+  margin: 7px 0;
+}
+.revue-form-field{
+ width: 60%;
+ border-style: none;
+ height: 30px;
+ padding: 0 1rem;
+ border-radius: 30px;
+}
+#member_submit{
+  border-style: none;
+  padding: 10px 1rem;
+  background-color: #fff;
+  font-size: 17px;
+  margin: 1rem 0;
+  border-radius: 30px;
+  text-align: center;
+}
+.formt{
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+h4{
+  margin: 0 10px;
+  line-height: 40px;
+}
+.float{
+  background-color: orangered;
+  color: white;
+  border-style: none;
+  position: fixed;
+  z-index: 9;
+  bottom: 6%;
+  left: auto;
+  right: 6%;
+  padding: 20px;
+  border-radius: 50px;
+  width: fit-content;
+}
