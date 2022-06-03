@@ -18,6 +18,7 @@ body{
 }
 .ht1{
   font-size: 32px;
+  text-shadow: 4px 4px 8px #000;
 }
 button{
   border-style: none;
@@ -27,6 +28,7 @@ button{
   margin: 1rem 0;
   width: 50%;
   font-size: 20px;
+  border-radius: 10px;
 }
 .ban-t1{
   font-size: 25px;
@@ -130,7 +132,7 @@ span{
   background-color: #fff;
   font-size: 17px;
   margin: 1rem 0;
-  border-radius: 30px;
+  border-radius: 10px;
   text-align: center;
 }
 .formt{
@@ -143,7 +145,7 @@ h4{
   line-height: 40px;
 }
 .float{
-  background-color: orangered;
+  background-color: darkblue;
   color: white;
   border-style: none;
   position: fixed;
@@ -151,7 +153,31 @@ h4{
   bottom: 6%;
   left: auto;
   right: 6%;
-  padding: 20px;
+  padding: 15px;
   border-radius: 50px;
   width: fit-content;
+  font-size: 40px;
+  animation: bounce 0.5s;
+  animation-direction: alternate;
+  animation-iteration-count: 1.2s;
+}
+.top{
+  background-color: #fff;
+  border: 2px solid darkblue;
+  border-style: dashed;
+}
+.topb{
+  background-color: transparent;
+  border: 2px solid #000;
+  color: darkblue;
+}
+@keyframes bounce {
+  from { transform: translate3d(0, 0, 0);     }
+  to   { transform: translate3d(0, 200px, 0); }
+}
+.fa-envelope-open-text{
+  font-size: 40px;
+}
+.formsub{
+  margin: 0 14px;
 }
